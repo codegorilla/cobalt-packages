@@ -3,7 +3,9 @@
 
 // TEST
 
-#include <iostream>
+//#include <iostream>
+
+import std;
 
 int main()
 {
