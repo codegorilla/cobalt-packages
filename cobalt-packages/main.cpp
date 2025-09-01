@@ -6,14 +6,21 @@ import cobalt.lang.math;
 
 namespace math = cobalt::lang::math;
 
+// "from cobalt.lang.math import cos" translates to the following two declarations
+
+import cobalt.lang.math;
+
+using cobalt::lang::math::cos1;
+
+
 int main()
 {
     std::cout << "Hello World!\n";
 
-    int a = -8;
+    float a = -10.0;
 
-    int b = cobalt::lang::math::tabs(a);
-    int c = math::tabs(a);
+    float b = cobalt::lang::math::abs(a);
+    float c = math::abs(a);
 
     std::cout << a << std::endl;
 
@@ -21,5 +28,10 @@ int main()
 
     std::cout << c << std::endl;
 
+    float d = cos1(a);
+
+    std::cout << d << std::endl;
+
+    return 0;
 }
 
