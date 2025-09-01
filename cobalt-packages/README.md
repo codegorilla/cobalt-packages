@@ -2,6 +2,12 @@
 README
 ======
 
+The purpose of this project is to experiment with cobalt package
+syntax and translations to C++.
+
+Enabling C++20 Module Support
+-----------------------------
+
 How to enable C++20 modules support in Visual Studio 2022.
 
 In Solution Explorer, right-click on the project, and then click
@@ -20,9 +26,3 @@ Still in the Properties Pages dialog box, under Configuration Properties > C/C++
 Set Scan Sources for Module Dependencies to "Yes".
 
 Click OK.
-
-
-
-
-
-

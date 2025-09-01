@@ -131,7 +131,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cobalt-packages.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cobalt.lang.math\source.ixx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
